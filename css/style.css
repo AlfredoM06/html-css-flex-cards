@@ -10,3 +10,20 @@ main {
     margin: 0 auto;
     text-align: center;
 }
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.bg-black{
+    background-color: rgb(27, 27, 27);
+}
