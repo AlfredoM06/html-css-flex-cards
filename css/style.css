@@ -11,12 +11,75 @@ main {
     text-align: center;
 }
 
+header {
+    background-color: rgba(96, 66, 245, 0.96);
+    color: rgb(245, 144, 66, 0.96);
+    border-style: outset;
+    border-width: 4px;
+    box-shadow: 10px 10px 20px grey;
+    height: 80px;
+    display: flex;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.flex-container-header {
+    width: 95%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-link-header {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(96, 66, 245, 0.96) ;
+    color: rgb(245, 144, 66, 0.96);
+    margin-top: 50px;
+    padding: 10px;
+    border-style: outset;
+    border-width: 4px;
+    margin-bottom: 0;
+}
+
 .flex-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+.flex-card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 30%;
+    height: 100px;
+    text-align: left;
+}
+
+.card-border {
+    box-shadow: 10px 10px 20px grey;   
+}
+   
+
+.img {
+    align-self: flex-start;
 }
 
 img {
@@ -26,4 +89,22 @@ img {
 
 .bg-black{
     background-color: rgb(27, 27, 27);
+}
+
+.text-color {
+    color: white;
+}
+
+.m-text {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.h1-text {
+    font-weight: 600;
+    color: rgb(229, 49, 112);
+}
+
+a {
+    color: aqua;
 }
